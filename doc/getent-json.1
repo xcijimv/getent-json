@@ -1,0 +1,52 @@
+.TH getent-json 1
+
+.SH NAME
+
+getent-json - retrieve getent databases as JSON
+
+.SH SYNOPSIS
+
+.B getent-json
+.I DATABASE
+
+.SH OPTIONS
+
+.TP
+.B --help
+Display help
+
+.TP
+.B --version
+Display version
+
+.SH SUPPORTED DATABASES
+
+  * passwd
+  * group
+  * shadow
+  * gshadow
+  * hosts
+  * aliases
+  * protocols
+  * services
+  * rpc
+
+.SH EXAMPLES
+
+.TP
+.B getent-json passwd
+Output the passwd database as JSON
+
+.TP
+.B getent-json hosts
+Output the hosts database as JSON
+
+.SH RESOURCES
+
+The source is available at https://github.com/xcijimv/getent-json.
+
+.SH LICENSE
+
+Copyright \(co 2017 xcijimv
+
+Licensed under the MIT license
